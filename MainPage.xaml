@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiComm_IssuePopupCloseMethod.MainPage">
+
+    <StackLayout Orientation="Vertical" Padding="5" Spacing="5">
+        <Button x:Name="btnClose" HeightRequest="44" Text="Close Test" TextColor="White" BackgroundColor="Blue" Clicked="btnClose_Clicked" />
+        <Button x:Name="btnCloseAsync" HeightRequest="44" Text="CloseAsync Test" TextColor="White" BackgroundColor="Blue" Clicked="btnCloseAsync_Clicked" />
+    </StackLayout>
+    
+</ContentPage>
